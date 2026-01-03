@@ -34,7 +34,8 @@ function insights_dashboard_render_page() {
     ?>
     <div class="wrap">
         <h1>Site Insights Dashboard</h1>
-        <p>This is where the React app will live.</p>
+
+        <div id="insights-dashboard-root"></div>
     </div>
     <?php
 }
