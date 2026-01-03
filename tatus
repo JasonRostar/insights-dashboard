@@ -1,0 +1,9 @@
+[33mcommit 20ced4c37252be792905950a079078e0d934d029[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jason Rostar <jason.rostar@yahoo.com>
+Date:   Thu Jan 1 17:14:14 2026 -0500
+
+    Initial plugin scaffold and activation
+
+ .gitignore             |  4 [32m++++[m
+ insights-dashboard.php | 11 [32m+++++++++++[m
+ 2 files changed, 15 insertions(+)
