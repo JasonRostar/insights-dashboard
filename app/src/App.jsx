@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div style={{ padding: 20 }}>
+      <header style={{ marginBottom: 16 }}>
+        <h2 style={{ margin: 0 }}>Site Insights Dashboard</h2>
+        <p style={{ margin: 0, color: "#555" }}>
+          React-powered admin dashboard
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      </header>
 
-export default App
+      <section
+        style={{
+          padding: 16,
+          border: "1px solid #ddd",
+          background: "#fff",
+        }}
+      >
+        <strong>Overview</strong>
+        <p style={{ marginTop: 8 }}>
+          This is where site data will appear.
+        </p>
+      </section>
+    </div>
+  );
+}
